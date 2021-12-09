@@ -1,0 +1,108 @@
+/*Global Color Variables*/
+:root {
+  --primary-color: rgb(31, 31, 31);
+  --secondary-color: skyblue;
+  --tertiary-color: rgb(117, 23, 23);
+}
+
+/* Universal style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* All Default Body */
+body {
+  color: skyblue;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: var(--primary-color);
+} 
+
+/* All Header */
+header {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 35px;
+  background-color: var(--primary-color);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+/*specific header elements below*/
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+  text-decoration: none;
+  color: var(--primary-color);
+  }
+  
+  header nav {
+  margin: 7px 0
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+  padding:10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: var(--secondary-color);
+  }
+  
+/*Pseudo hover for nav elements*/
+header nav ul li a:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+/*FOOTER TO FOLLOW*/
+footer {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: var(--primary-color);
+  width: 100%;
+  padding: 40px 35px;
+}
+    
+footer h3 {
+  color: skyblue;
+  font-size: 30px;
+  margin: 0;
+}
+    
+.contactMe {
+  border-right: 10px skyblue;
+}
+
+/* About Me Section*/
+.aboutMe {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+/* Work Section*/
+.workSection {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
