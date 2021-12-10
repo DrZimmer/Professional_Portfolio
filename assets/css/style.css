@@ -153,18 +153,44 @@ footer a {
 /* Work Section*/
 .workSection {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: var(--primary-color);
   background-color: var(--secondary-color);
 }
 
 .workSection h3 {
-  display: flex;
   font-size: 48px;
+  margin: 10px 0 10px 185px;
+  padding-right: 10px;
   border-right: 5px solid var(--primary-color);
 }
 
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.biggestProject {
+  background-image: url("../images/02-run-buddy.jpg");
+}
 
+.projectTwo {
+  background-image: url("../images/project_2.jpg");
+}
+
+.projectThree {
+  background-image: url("../images/project_3.jpg");
+}
+
+.projectFour {
+  background-image: url("../images/project_4.jpg");
+}
+
+.projectFive {
+  background-image: url("../images/project_5.jpg");
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 /*@media screen and (max-width: 980px) {
