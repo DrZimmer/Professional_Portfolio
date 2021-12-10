@@ -88,7 +88,6 @@ footer {
 }
     
 footer h3 {
-  overflow-wrap:;
   color: var(--secondary-color);
   font-size: 48px;
   padding: 0 10px;
@@ -128,16 +127,28 @@ footer a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.afterHero {
+  padding: 40px 35px;
+}
+
 /* About Me Section*/
-.aboutMe {
+.aboutMeSection {
   display: flex;
   color: var(--primary-color);
   background-color: var(--secondary-color);
 }
 
-.aboutMe h3 {
+.aboutMeSection h3 {
+  flex: 1 20%;
+  justify-content: right;
   font-size: 48px;
   border-right: 5px solid var(--primary-color);
+}
+
+.aboutMe {
+  flex: 2 70%;
+  display:flex;
+  align-items: center;
 }
 
 .aboutMe img {
@@ -146,30 +157,28 @@ footer a {
 }
 
 .aboutMe p {
-  display: flex;
-  justify-content: center;
+  
 }
 
 /* Work Section*/
 .workSection {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display:inline-flex;
+  position: relative;
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  width:100%;
 }
 
 .workSection h3 {
   font-size: 48px;
-  margin: 10px 0 10px 185px;
+  margin: 10px 0 10px 70px;
   padding-right: 10px;
   border-right: 5px solid var(--primary-color);
 }
 
-.projects {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.projectsFlex {
+  display:flex;
+  flex-wrap: wrap;
 }
 
 .biggestProject {
