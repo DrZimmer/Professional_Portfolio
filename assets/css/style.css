@@ -111,9 +111,6 @@ footer a {
 
 /* Hero Section*/
 .hero {
-  display:flex;
-  justify-content: right;
-  align-items: flex-end;
   background-image: url("../images/hero_image.jpeg");
   background-size: cover;
   background-position: center;
