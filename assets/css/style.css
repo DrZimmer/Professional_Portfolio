@@ -134,6 +134,24 @@ footer a {
 }
 
 /* Begin About Me and Work Section*/
+
+.flex-item {
+  border: 5px solid var(--secondary);
+  background-color: var(--primary);
+  color: var(--tertiary);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
 .page-section {
   display: flex;
   color: var(--primary-color);
@@ -149,7 +167,7 @@ footer a {
   margin-bottom: 30px;
 }
 
-.aboutMe {
+.aboutMe1 {
   flex: 2 70%;
   display:flex;
   align-items: center;
@@ -157,13 +175,34 @@ footer a {
   margin-bottom: 20px;
 }
 
-.aboutMe img {
+.aboutMe2 {
+  flex: 2 70%;
+  align-items: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutMe1 img {
   height: 300px;
 }
 
-.aboutMe p {
+.aboutMe1 p {
   padding: 5px 20px;
 }
+
+.aboutMe2 h4 {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.aboutMe2 p {
+  background-color: var(--secondary-color);
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
 /*End About me or Work section*/
 
 .projectsFlex {
@@ -189,35 +228,6 @@ footer a {
 
 .projectFive {
   background-image: url("../images/project_5.jpg");
-}
-
-
-.flex-item {
-  border: 5px solid var(--secondary);
-  background-color: var(--primary);
-  color: var(--tertiary);
-  min-height: 150px;
-  max-height: 150px;
-  flex-basis: calc(50% - 1em);
-  display: flex;
-  align-items: flex-end;
-  padding: 0 0 20px 0;
-  margin: 0.5em;
-  background-blend-mode: soft-light;
-  background-size: 150%;
-  transition: all 0.5s;
-  font-size: 0.9rem;
-}
-
-.aboutMe h4 {
-  background-color: var(--secondary-color);
-  padding: 5px 10px;
-  margin-left: 10px;
-}
-
-.aboutMe p {
-  background-color: var(--secondary-color);
-  padding: 5px 10px;
 }
 
 /* feature first portfolio item */
