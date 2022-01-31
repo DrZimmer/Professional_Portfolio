@@ -205,6 +205,8 @@ footer a {
 
 /*End About me or Work section*/
 
+/*Projects section*/
+
 .projectsFlex {
   display: flex;
   flex-wrap: wrap;
