@@ -3,7 +3,6 @@
 ## Description
 
 My own personal professional portfolio.
-All HTML and CSS were added from scratch.
 
 - HTML Nav links to sections and Resume Doc
 - Footer Contact info links to my personal pages on various apps
