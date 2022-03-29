@@ -147,7 +147,7 @@ footer a {
   padding: 0 0 20px 0;
   margin: 0.5em;
   background-blend-mode: soft-light;
-  background-size: 150%;
+  background-size: cover;
   transition: all 0.5s;
   font-size: 0.9rem;
 }
@@ -213,7 +213,7 @@ footer a {
 }
 
 .biggestProject {
-  background-image: url("../images/2\ diff\ bg\ -\ black\ text.jpg");
+  background-image: url("../images/mystery-of-butler-station-gif.gif");
 }
 
 .projectTwo {
@@ -221,7 +221,7 @@ footer a {
 }
 
 .projectThree {
-  background-image: url("../images/project_3.jpg");
+  background-image: url("../images/the_dinner_spinner.png");
 }
 
 .projectFour {
